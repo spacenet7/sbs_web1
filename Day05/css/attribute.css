@@ -15,3 +15,12 @@ section {
 */
 
 /* TODO: 여기에 작성해보세요 */
+/* section 태그, 속설명 id, 속성값 '2' 로 끝나는 경우 */
+section[id$='2'] { 
+    background-color: yellow;
+    padding: 10px;
+}
+/* div 태그, 속성명 class 인 경우 */
+div[class] { 
+    padding: 5;
+}
