@@ -3,6 +3,25 @@
 <head>
 
     <style>
+       html { font-size: 32px; }
+       body { font-size: 16px; }
+    
+       /* em : 부모요소의 베율로 지정한 단위 
+          브모요소 : 16px
+          자식요소 : 2em = 32px
+          */
+          /* rem : html 의 배율로 지정한 단위
+             html 요소 : 32px
+             지정요소 : 2rem = 64px
+              */
+              p#t1 { font-size: 1.0em;}
+              p#t2 { font-size: 1.5em;}
+              p#t3 { font-size: 2.0em;}
+
+              p#r1 { font-size: 1.0rem;}
+              p#r2 { font-size: 1.5rem;}
+              p#r3 { font-size: 2.0rem;}
+
     </style>
 </head>
 <body>
@@ -11,5 +30,8 @@
     <p id="t2">paragraph.</p>
     <p id="t3">paragraph.</p>
 
+    <p id="r1">paragraph.</p>
+    <p id="r2">paragraph.</p>
+    <p id="r3">paragraph.</p> 
 </body>
 </html>
